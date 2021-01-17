@@ -1,0 +1,174 @@
+.intro {
+    background-image: url(../images/header.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+
+  .intro__row {
+    display: flex;
+    // font-size: 16px;
+    height: 100%;
+  }
+
+  .intro__slogan {
+    display: flex;
+    // font-size: 0;
+    text-align: center;
+    align-items: center;
+    writing-mode: tb-rl;
+    transform: rotate(180deg);
+    margin-left: 10px;
+  }
+
+  .intro_liner {
+    display: flex;
+    font-size: 0;
+    border: 1px solid #ffffff;
+    height: 80px;
+    width: 2px;
+    margin-bottom: 10px;
+  }
+  
+  .slogan {
+    color: #ffffff;
+    font-family: $font;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 55px;
+    text-align: left;
+    text-transform: uppercase;
+    height: 312px;
+  }
+
+  .description {
+    display: flex;
+    font-size: 0;
+    margin: 0 auto;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+    text-align: center;
+  }
+
+  .description__title {
+    margin-left: auto;
+    width: 632px;
+    height: 120px;
+    text-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+    color: #f7f8f3;
+    font-family: $font;
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 75px;
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 15.4px;
+  }
+
+  .description__subtitle {
+    margin-left: auto;
+    margin-top: 20px;
+    width: 398px;
+    height: 23px;
+    color: #f7f8f3;
+    font-family: $font;
+    font-size: 21px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 75px;
+    text-align: right;
+    letter-spacing: 6.72px;
+  }
+
+  a,
+a:visited {
+  text-decoration: none;
+}
+
+.start-shoping {
+    display: flex;
+    font-size: 0;
+    justify-content: center;
+    align-items: center;
+    width: 271px;
+    height: 71px;
+    border: 1px solid  #ffffff91;
+    margin-top: 45px;
+    margin-left: auto;
+  }
+
+  .start-shoping div {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    width: 45px;
+    height: 1px;
+    display: block;
+    margin: 0 10px;
+  }
+
+  .shop__btn {
+    cursor: pointer;
+    color: #ffffff;
+    font-family: $font;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 230px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 71px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .all-products {
+    display: flex;
+    width: 271px;
+    height: 71px;
+    margin-left: auto;
+    align-items: center;
+    justify-content: end;
+  }
+
+  .prod__btn {
+    color: #ffffff;
+    font-family: $font;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 230px;
+    text-align: right;
+    margin: 0 10px 0 100px;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 71px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  * {
+    transition: all .1s ease-in;
+  }
+
+  .product__names {
+    color: #1c1c1b;
+    font-family: "OswaldRegular";
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 75px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin-bottom: 50px;
+  }

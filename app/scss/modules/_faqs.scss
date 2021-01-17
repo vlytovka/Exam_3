@@ -1,0 +1,117 @@
+.faqs {
+    padding-top: 81px;
+    background-color: #f7f8f3;
+    padding-bottom: 71px;
+  }
+
+  .faqs__title {
+    color: #1c1c1b;
+    font-family: $font;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 75px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+  }
+
+  .faqs__accordions {
+    max-width: 571px;
+    margin: 0 auto;
+    display: flex;
+    font-size: 0;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-content: center;
+  }
+
+  .accordion {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+  }
+
+  .accordion__head {
+    cursor: pointer;
+    padding: 10px 20px;
+    background: #f7f8f3;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    border-top: 1px solid #ced6af;
+  }
+
+  .accordion__head h2 {
+    color: #6e774a;
+    font-family: $font;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 75px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: 5.04px;
+    line-height: normal;
+  }
+
+  .accordion__head:hover {
+    background-color: #f7f8f3;
+  }
+
+  .accordion__body {
+    background-color: #f7f8f3;
+    overflow: hidden;
+    width: 0px;
+    height: 0px;
+    max-height: 0px;
+    opacity: 0;
+  }
+
+  .accordion__body p {
+    margin-left: 23px;
+    font-family: $font;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 40px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: 0.72px;
+    line-height: normal;
+  }
+
+  .accordion .open {
+    transition: max-height 6s ease;
+    padding: 10px 20px;
+    width: auto;
+    height: auto;
+    max-height: 5000px;
+    opacity: 1;
+  }
+
+  .accordion:nth-last-child(1) {
+    border-bottom: 1px solid #ced6af;
+  }
+
+  .state-indication {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(#6e774a, #6e774a), linear-gradient(#6e774a, #6e774a);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .plus {
+    background-size: 50% 1px,1px 50%;
+  }
+  
+  .minus {
+    background-size: 1px 50%;
+    transform: rotate(90deg);
+  }

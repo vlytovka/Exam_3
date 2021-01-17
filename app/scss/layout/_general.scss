@@ -1,0 +1,36 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: none;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	scroll-behavior: smooth;
+}
+
+body, html {
+	min-height: 100%;
+	width: 100%;
+}
+
+// Main styles
+
+body,
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+  margin: 0;
+  background-color: #f7f8f3;
+}
+
+.container {
+	margin: 0px auto;
+	padding: 0px 0px;
+	width: 100%;
+  }
+
+
+  
